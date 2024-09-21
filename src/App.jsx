@@ -1,6 +1,7 @@
 import './App.css'
 import Box from './components/Box'
 import BoxWithForm from './components/BoxWithForm'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -11,8 +12,11 @@ function App() {
       <div className="p-4">
         <h1 className="font-bold text-8xl">Coming Soon!</h1>
       </div>
-      <div className="pt-6">
+      <div className="pt-6 pb-24">
         <BoxWithForm/>
+      </div>
+      <div>
+        <Footer/>
       </div>
     </div>
   )
