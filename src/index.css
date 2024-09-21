@@ -1,3 +1,10 @@
+@import url("https://use.typekit.net/zdj1sea.css");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+:root {
+    font-family: "tt-commons-pro", sans-serif;
+    color: #ffffff;
+}
