@@ -11,7 +11,7 @@ const BoxWithForm = () => {
     if (!first_name || !last_name || !email_user) return; // Don't proceed if any field is empty
 
     try {
-      const response = await fetch("https://okashamunir.app.n8n.cloud/webhook-test/edba6981-391d-4152-974c-3304c33f34f4", {
+      const response = await fetch("https://okashamunir.app.n8n.cloud/webhook/edba6981-391d-4152-974c-3304c33f34f4", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
