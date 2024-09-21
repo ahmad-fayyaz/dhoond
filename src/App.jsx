@@ -10,9 +10,9 @@ function App() {
         <Box/>
       </div>
       <div className="p-4">
-        <h1 className="text-center font-bold text-8xl">Coming Soon!</h1>
+        <h1 className="text-center font-bold text-5xl sm:text-6xl md:text-6xl lg:text-8xl">Coming Soon!</h1>
       </div>
-      <div className="pt-6 pb-24 mx-3">
+      <div className="pt-6 pb-24 mx-4">
         <BoxWithForm/>
       </div>
       <div>
